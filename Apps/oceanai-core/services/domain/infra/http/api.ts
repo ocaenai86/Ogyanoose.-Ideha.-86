@@ -1,4 +1,3 @@
-
 // src/infra/http/api.ts
 
 import axios from "axios";
