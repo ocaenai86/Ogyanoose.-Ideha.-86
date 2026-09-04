@@ -22,7 +22,6 @@ export async function routeCommand(command: Command): Promise<any> {
       return invokeModule("crypto-analytics", command);
 
     case "TRADE":
-      // ممکن است Workflow ترکیبی باشد
       return runWorkflow("TRADING_WORKFLOW", command);
 
     case "CREATE_NFT":
